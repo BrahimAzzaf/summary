@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* root */
+/* Light red: hsl(0, 100%, 67%);
+- Orangey yellow: hsl(39, 100%, 56%);
+- Green teal: hsl(166, 100%, 37%);
+- Cobalt blue: hsl(234, 85%, 45%); */
+/* root */
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #fff;
+    /* background-color:  hsl(221, 100%, 96%); */
+}
+/* Start Summary */
+.summary{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+}
+.summary .back{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px  #5f5fb9;
+}
+
+/* Start Left */
+.left-contaier{
+    text-align: center;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgb(73, 73, 247) 44%, rgb(57, 31, 206) 100%);
+}
+
+.left-contaier h2{
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 18px;
+    
+    
+}
+.left-contaier  h1{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+.left-contaier h4{
+    width: 145px;
+    margin-left: 100px;
+    height: 145px;
+    color: #d1d1d1;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgb(73, 73, 247) 44%, rgb(57, 31, 206) 100%);
+    padding: 30px;
+}
+.left-contaier span{
+    color: #fff;
+    font-size: 60px;
+}
+.left-contaier p{
+    color: hsl(241, 100%, 89%);
+    width: 290px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 40px;
+    padding-left: 34px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+/* End Left */
+
+/* Start right */
+.right-contaier{
+    background-color: #fff;
+    width: 300px;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.right-contaier h2{
+    margin-left: 10px;
+}
+.right-contaier ul{
+    list-style: none;
+    padding-top: 5px;
+}
+.right-contaier ul li{    
+    font-weight: 800px;
+    font-size: 17px;
+    text-decoration: none;
+    width: 270px;
+    height: 50px;
+    padding: 15px;
+    margin: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.right-contaier ul .percent{
+    color: hsl(241, 100%, 89%);
+}
+
+
+.right-contaier ul .Reaction .num {
+    margin-left: 85px;
+}
+
+.right-contaier ul .Memory .num {
+    margin-left: 100px;
+}
+.right-contaier ul .Verbal .num {
+    margin-left: 110px;
+}
+.right-contaier ul .Visuel .num {
+    margin-left: 110px;
+}
+
+.right-contaier ul .Reaction{
+    padding-left: 10px;
+    color:  hsl(0, 100%, 67%);
+    background-color:  hsl(0, 100%,99%);
+}
+.right-contaier ul .Memory{
+    padding-left: 10px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 97%);
+}
+.right-contaier ul .Verbal{
+    padding-left: 10px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 96%);
+}
+.right-contaier ul .Visuel{
+    padding-left: 10px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 96%);
+}
+
+.right-contaier button{
+    padding-left: 10px;
+    color: hsl(241, 100%, 97%);
+    background-color: rgb(55, 25, 228);
+    font-weight: 600;
+    padding: 10px;
+    margin: 15px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.right-contaier button:hover{
+    background-color: hsl(224, 30%, 27%);
+}
+
+/* End Summary */
